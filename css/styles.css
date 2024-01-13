@@ -10,6 +10,16 @@ ul {
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+}
+address {
+    all: unset;
+}
+
+
+/*---------------header------------*/
+
 .header-logo {
     color: var(--NAVY-BLUE, #2E2F42);
 font-family: Raleway;
@@ -24,7 +34,8 @@ text-transform: uppercase;
     color: var(--IRIS, #4D5AE5);
 }
 
-.header-menu-item {
+.header-menu-item,
+.header-menu-item-first {
     color: var(--NAVY-BLUE, #2E2F42);
 font-size: 16px;
 font-weight: 500;
@@ -32,17 +43,38 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.header-address-item {
-    color: var(--SLATE, #434455);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.32px0.02em;
+.header-menu-item:hover,
+.header-menu-item:focus {
+    color: var(--OCEAN, #404BBF);
+}
+.header-menu-item-first:hover,
+.header-menu-item-first:focus,
+.header-menu-item-first:active {
+color: var(--OCEAN, #404BBF);
 }
 
-.title {
+
+.header-address-item {
+color: var(--SLATE, #434455);
+font-family: inherit;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.header-address-item:hover,
+.header-address-item:focus {
+    color: var(--OCEAN, #404BBF);
+}
+
+/*-----------HERO------------*/
+
+.hero {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.hero-title {
     color: var(--WHITE, #FFF);
 text-align: center;
 font-size: 56px;
@@ -51,3 +83,25 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 }
 
+.hero-btn {
+    color: var(--WHITE, #FFF);
+    font-family: inherit;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+}
+
+
+/*-----------FEATURES----------*/
+.features {
+}
+.features-list {
+}
+.features-item {
+}
+.features-subtitle {
+}
+.features-item-text {
+}
