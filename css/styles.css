@@ -64,7 +64,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.header-address-item:hover,
+.header-address-item:hover {
+    color: var(--OCEAN, #404BBF);
+}
 .header-address-item:focus {
     color: var(--OCEAN, #404BBF);
 }
@@ -97,7 +99,9 @@ letter-spacing: 0.04em;
 cursor: pointer;
 }
 
-.hero-btn:hover 
+.hero-btn:hover {
+    background: var(--OCEAN, #404BBF);
+}
 .hero-btn:focus {
     background: var(--OCEAN, #404BBF);
 }
