@@ -99,18 +99,13 @@ cursor: pointer;
 }
 
 /*-----------FEATURES----------*/
-.features {
-}
-.features-list {
-}
-.features-item {
-}
+
 .features-subtitle {
 color: var(--NAVY-BLUE, #2E2F42);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
-letter-spacing: 0.03em;
+letter-spacing: 0.02em;
 }
 
 .features-item-text {
@@ -122,6 +117,7 @@ letter-spacing: 0.02em;
 
 /*-------OUR TEAM------*/
 .team {
+    background-color: #F4F4FD
 }
 .team-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -133,9 +129,9 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .team-list {
+    background-color: #FFFFFF
 }
-.team-item {
-}
+
 .team-item-subtitle {
     color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
@@ -154,8 +150,7 @@ letter-spacing: 0.02em;
 
 /*-----Portfolio-------*/
 
-.portfolio {
-}
+
 .portfolio-title {
     color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
@@ -165,10 +160,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-.portfolio-list {
-}
-.portfolio-item {
-}
+
 .portfolio-subtitle {
     color: var(--NAVY-BLUE, #2E2F42);
 font-size: 20px;
@@ -179,7 +171,7 @@ letter-spacing: 0.02em;
 .portfolio-text {
     color: var(--SLATE, #434455);
 font-size: 16px;
-line-height: 1.50;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
@@ -189,16 +181,16 @@ letter-spacing: 0.02em;
     background: var(--NAVY-BLUE, #2E2F42);
 }
 .foot-logo {
-    color: var(--CLOUD, #F4F4FD);
-font-family: Raleway;
+    color: var(--CLOUD, #4d5ae5);
+font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.foot-logo-blue {
-    color: var(--IRIS, #4D5AE5);
+.foot-logo-studio {
+    color: var(--IRIS, #f4f4fd);
 }
 .foot-text {
     color: var(--CLOUD, #F4F4FD);
